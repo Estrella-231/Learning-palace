@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+/* React Flow overrides */
+.react-flow__node {
+  font-size: 12px;
+}
+
+.react-flow__edge-path {
+  stroke-width: 2;
+}
+
+/* Inline markdown — strip block margins for compact display */
+.markdown-inline p {
+  margin: 0;
+}
+.markdown-inline .katex {
+  font-size: 0.95em;
+}
